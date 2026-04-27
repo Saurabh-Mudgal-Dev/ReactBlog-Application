@@ -8,6 +8,7 @@ import Hollywood from './components/Hollywood'
 import Food from './components/Food'
 import Fitness from './components/Fitness'
 import Bollywood from './components/Bollywood'
+import Details from './components/Details'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           <Route path='/technology' element={<Technology />} />
           <Route path='/fitness' element={<Fitness />} />
           <Route path='/food' element={<Food />} />
+          <Route path='/details/:id' element={<Details />} /> 
         </Routes>
 
       </BrowserRouter>
